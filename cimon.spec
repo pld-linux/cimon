@@ -37,6 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES INSTALL README
+%doc CHANGES INSTALL README TODO
 %attr(644,root,root) %config(noreplace) %{_sysconfdir}/%{name}.conf
 %attr(755,root,root) %{_bindir}/*
