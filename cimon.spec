@@ -7,6 +7,7 @@ Release:	0.1
 License:	BSD
 Group:		Applications/System
 Source0:	http://rousse.pm.org/cimon/%{name}-%{version}.tar.gz
+# Source0-md5:	841eb90c00d45d30d40ca5df6af30eba
 URL:		http://rousse.pm.org/cimon/
 BuildRequires:	rpm-perlprov
 Requires:	rrdtool
