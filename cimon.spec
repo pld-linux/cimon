@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Cimon is Perl program which monitors the load (memory and CPU) on
 Cisco routers using SNMP, and generates graphics with statistics using
 rrdtool. It's a good source for information about your router's
-health. It also has the abillity to make IP accounting via Cisco IP
-accounting features. It creates rrd graphics with the bandwith usage
+health. It also has the ability to make IP accounting via Cisco IP
+accounting features. It creates rrd graphics with the bandwidth usage
 and traffic logfiles. The logfiles are the same as these produced by
 sasacct so you can use it for date-to-date statistics and on-the-fly
 graphic generation.
