@@ -13,14 +13,24 @@ Requires:	rrdtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Cimon is Perl program wich monitors the load (memory and CPU) on Cisco
-routers using SNMP, and generates graphics with statistics using
+Cimon is Perl program which monitors the load (memory and CPU) on
+Cisco routers using SNMP, and generates graphics with statistics using
 rrdtool. It's a good source for information about your router's
 health. It also has the abillity to make IP accounting via Cisco IP
 accounting features. It creates rrd graphics with the bandwith usage
 and traffic logfiles. The logfiles are the same as these produced by
 sasacct so you can use it for date-to-date statistics and on-the-fly
 graphic generation.
+
+%description -l pl
+Cimon to napisany w Perlu program monitoruj±cy obci±¿enie (pamiêci i
+procesora) w routerach Cisco przy u¿yciu SNMP i generuj±cy wykresy
+ze statystykami przy u¿yciu rrdtool. Jest to dobre ¼ród³o informacji o
+stanie urz±dzenia. Ma tak¿e mo¿liwo¶æ tworzenia accountingu IP poprzez
+mo¿liwo¶ci Cisco. Tworzy wykresy rrd z wykorzystaniem pasma i logami
+ruchu. Logi ruchu s± te same, co produkowane przez sasacct, wiêc mo¿na
+u¿ywaæ ich do statystyk w przedzia³ach czasu oraz do generowania
+wykresów w locie.
 
 %prep
 %setup -q
