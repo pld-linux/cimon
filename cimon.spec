@@ -25,8 +25,8 @@ graphic generation.
 
 %description -l pl
 Cimon to napisany w Perlu program monitoruj±cy obci±¿enie (pamiêci i
-procesora) w routerach Cisco przy u¿yciu SNMP i generuj±cy wykresy
-ze statystykami przy u¿yciu rrdtool. Jest to dobre ¼ród³o informacji o
+procesora) w routerach Cisco przy u¿yciu SNMP i generuj±cy wykresy ze
+statystykami przy u¿yciu rrdtool. Jest to dobre ¼ród³o informacji o
 stanie urz±dzenia. Ma tak¿e mo¿liwo¶æ tworzenia accountingu IP poprzez
 mo¿liwo¶ci Cisco. Tworzy wykresy rrd z wykorzystaniem pasma i logami
 ruchu. Logi ruchu s± te same, co produkowane przez sasacct, wiêc mo¿na
