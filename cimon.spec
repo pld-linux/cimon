@@ -49,5 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES INSTALL README TODO
-%attr(644,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}.conf
 %attr(755,root,root) %{_bindir}/*
