@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Monitors CPU and memory usage on Cisco routers
-Summary(pl):	Monitorowanie zu¿ycia procesora i pamiêci w routerach Cisco
+Summary(pl.UTF-8):   Monitorowanie zuÅ¼ycia procesora i pamiÄ™ci w routerach Cisco
 Name:		cimon
 Version:	0.3
 Release:	0.1
@@ -23,15 +23,15 @@ and traffic logfiles. The logfiles are the same as these produced by
 sasacct so you can use it for date-to-date statistics and on-the-fly
 graphic generation.
 
-%description -l pl
-Cimon to napisany w Perlu program monitoruj±cy obci±¿enie (pamiêci i
-procesora) w routerach Cisco przy u¿yciu SNMP i generuj±cy wykresy ze
-statystykami przy u¿yciu rrdtool. Jest to dobre ¼ród³o informacji o
-stanie urz±dzenia. Ma tak¿e mo¿liwo¶æ tworzenia accountingu IP poprzez
-mo¿liwo¶ci Cisco. Tworzy wykresy rrd z wykorzystaniem pasma i logami
-ruchu. Logi ruchu s± te same, co produkowane przez sasacct, wiêc mo¿na
-u¿ywaæ ich do statystyk w przedzia³ach czasu oraz do generowania
-wykresów w locie.
+%description -l pl.UTF-8
+Cimon to napisany w Perlu program monitorujÄ…cy obciÄ…Å¼enie (pamiÄ™ci i
+procesora) w routerach Cisco przy uÅ¼yciu SNMP i generujÄ…cy wykresy ze
+statystykami przy uÅ¼yciu rrdtool. Jest to dobre ÅºrÃ³dÅ‚o informacji o
+stanie urzÄ…dzenia. Ma takÅ¼e moÅ¼liwoÅ›Ä‡ tworzenia accountingu IP poprzez
+moÅ¼liwoÅ›ci Cisco. Tworzy wykresy rrd z wykorzystaniem pasma i logami
+ruchu. Logi ruchu sÄ… te same, co produkowane przez sasacct, wiÄ™c moÅ¼na
+uÅ¼ywaÄ‡ ich do statystyk w przedziaÅ‚ach czasu oraz do generowania
+wykresÃ³w w locie.
 
 %prep
 %setup -q
