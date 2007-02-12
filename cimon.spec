@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Monitors CPU and memory usage on Cisco routers
-Summary(pl.UTF-8):   Monitorowanie zużycia procesora i pamięci w routerach Cisco
+Summary(pl.UTF-8):	Monitorowanie zużycia procesora i pamięci w routerach Cisco
 Name:		cimon
 Version:	0.3
 Release:	0.1
